@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Scan2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\XINHUA\AppData\Local\Temp\RSP6025.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Scan2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\XINHUA\Desktop\ICMP\Scan2\Scan2Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\XINHUA\AppData\Local\Temp\RSP6025.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Scan2.pdb" /debug /machine:I386 /out:"Debug/Scan2.exe" /pdbtype:sept  .\Debug\Scan2.obj .\Debug\Scan2Dlg.obj .\Debug\setport.obj .\Debug\StdAfx.obj .\Debug\Scan2.res .\SkinPPWTL.lib "
+<h3>Output Window</h3>
+Compiling...
+Scan2Dlg.cpp
+C:\Users\XINHUA\Desktop\ICMP\Scan2\Scan2Dlg.cpp(66) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\Users\XINHUA\Desktop\ICMP\Scan2\Scan2Dlg.cpp(67) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\Users\XINHUA\Desktop\ICMP\Scan2\Scan2Dlg.cpp(68) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\Users\XINHUA\Desktop\ICMP\Scan2\Scan2Dlg.cpp(69) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Scan2.bsc"  .\Debug\StdAfx.sbr .\Debug\Scan2.sbr .\Debug\Scan2Dlg.sbr .\Debug\setport.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Scan2.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
